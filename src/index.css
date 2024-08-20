@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+@font-face {
+  font-family: "Redriver";
+  src: url('../src/components/fonts/redriver/Redriver.ttf');
+}
+@font-face {
+  font-family: "Trap";
+  src: local('TrapMedium'),
+  url('../src/components/fonts/TrapCustom/Trap-Bold.ttf') format('truetype')
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('../src/components/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: "PoppinsNormel";
+  src: url('../src/components/fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: "Helvetics";
+  src: url('../src/components/fonts/Helvetica-Font-Family2/helvetica-rounded-bold-5871d05ead8de.ttf');
+}
+@font-face {
+  font-family: "Quiksand";
+  src: url('../src/components/fonts/Quicksand/static/Quicksand-Medium.ttf');
 }
